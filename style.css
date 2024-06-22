@@ -1,0 +1,114 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color:#fee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu u1{
+    width: 100%;
+    height: 50px;
+    color: #000;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.menu u1 li{
+    color: red;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration:none;
+}
+.menu u1 li a{
+    color:blue;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration:none;
+}
+.signup u2 li{
+    color: red;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration:none;
+}
+.signup u2 li a{
+    color:blue;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration:none;
+    border:2px solid #ff0000;
+    padding:2px;
+    border-radius: 12px;
+}
+html{
+    background-image: url("http://eragenx.com/wp-content/uploads/2016/07/Taj-Mahal.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+     
+}
+h2,p{
+    font-size:25px;
+    text-align: center;
+}
+#unique{
+    color:aqua;
+    font-size:20px ;
+}
+.body{
+    width:100%;
+    height:90vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+h3{
+    text-align: center;
+    color:#000;
+    background-color: #fee;
+}
+h3 a{
+    text-decoration:none;
+    color: #000;
+    font-size:25px;
+    border-radius:45px;
+    padding:14px 50px;
+    background-color: #000;
+}
+.h3 a:hover{
+    letter-spacing: 3px;
+    transition:0.6s;
+}
+.tours{
+    display:flex;
+    justify-content: space-around;
+}
+.places{
+    display:inline;
+    text-align: center;
+    border-radius: 12px;
+}
+.places a{
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: #fff;
+
+}
+@media (max-width:500px){
+    .navbar{
+        width: 100%;
+        height: 100px;
+        background-color:#fee;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+}
